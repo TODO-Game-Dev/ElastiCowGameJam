@@ -39,46 +39,21 @@ public class ElastiCowController : MonoBehaviour
         if (height != _lastHeight)
         {
             var heightDiff = height- _lastHeight;
-            //Vector3 amountDifference = new Vector3();
-            //float difference = 0;
             int count = 0;
             foreach (GameObject leg in legs)
             {
                 Vector3 newScale = new Vector3(_legsScaleCache[count].x, _legsScaleCache[count].y + height,
                     _legsScaleCache[count].z);
-               // difference = leg.transform.position.y;
-                ScaleAround(leg,leg.transform.GetChild(0).transform.position, newScale );
-                /*amountDifference = leg.transform.position - leg.transform.GetChild(0).transform.position;
-
-                difference -= newScale.y;*/
+                leg.transform.localScale = newScale;
             
                 count++;
             }
 
-            //Debug.Log(heightDiff);
-            this.transform.position = new Vector3(this.transform.position.x,this.transform.position.y+heightDiff,this.transform.position.z);
+            if (this.transform.position.y+heightDiff > 0){
+                this.transform.position = new Vector3(this.transform.position.x,this.transform.position.y+heightDiff,this.transform.position.z);
+            }
             _lastHeight = height;
 
         }
     }
-    
-    
-    public void ScaleAround(GameObject target, Vector3 pivot, Vector3 newScale)
-    {
-        Vector3 A = target.transform.localPosition;
-        Vector3 B = pivot;
- 
-        Vector3 C = A - B; // diff from object pivot to desired pivot/origin
- 
-        float RS = newScale.x / target.transform.localScale.x; // relataive scale factor
- 
-        // calc final position post-scale
-        Vector3 FP = B + C * RS;
- 
-        // finally, actually perform the scale/translation
-        target.transform.localScale = newScale;
-        target.transform.localPosition = FP;
-    }
-
-    
 }

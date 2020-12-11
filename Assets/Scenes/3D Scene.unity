@@ -417,10 +417,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1415230720, guid: 1ad017ab23ff8024ab4ba4aa32e048dd, type: 3}
-      propertyPath: redEye
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 460700542129856531, guid: 1ad017ab23ff8024ab4ba4aa32e048dd, type: 3}
       propertyPath: m_Name
       value: ElastiCow

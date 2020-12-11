@@ -101,7 +101,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 950096928338262697}
-  - component: {fileID: 2137213745356371810}
   - component: {fileID: 1415230720}
   m_Layer: 0
   m_Name: elastivaca
@@ -127,22 +126,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!54 &2137213745356371810
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 460700542129856531}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1415230720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,8 +140,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elastivacaEyeMaterial: {fileID: 2100000, guid: a53d3aded45d25a4e83caafe10d276b9, type: 2}
   fogParticle: {fileID: 6076877993515423714}
+  height: 0
   redEye: 0
   fogActive: 0
+  legs:
+  - {fileID: 1917043797356102463}
+  - {fileID: 7793524215186189581}
+  - {fileID: 5796644343199951514}
+  - {fileID: 6611716177552410811}
 --- !u!1 &1107278865971417947
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5327908694577488402}
+  - component: {fileID: 1217938418}
   m_Layer: 0
   m_Name: foot.L
   m_TagString: Untagged
@@ -661,6 +651,19 @@ Transform:
   m_Father: {fileID: 4164659306994843365}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1217938418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521211213490408419}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.2, z: 0.1}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!1 &3644169792937773515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8326942222695284087}
+  - component: {fileID: 454158071}
   m_Layer: 0
   m_Name: front_foot.R
   m_TagString: Untagged
@@ -1070,6 +1074,19 @@ Transform:
   m_Father: {fileID: 8758376939265339675}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &454158071
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5641942071488703302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.52, z: 0.1}
+  m_Center: {x: 0, y: -0.09, z: 0}
 --- !u!1 &5796644343199951514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,6 +1188,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8906701278169204414}
+  - component: {fileID: 414062635}
+  - component: {fileID: 414062636}
   m_Layer: 0
   m_Name: metarig
   m_TagString: Untagged
@@ -1193,6 +1212,35 @@ Transform:
   m_Father: {fileID: 950096928338262697}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &414062635
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6414921108844246366}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 48
+  m_CollisionDetection: 0
+--- !u!65 &414062636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6414921108844246366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.44, y: 1.69, z: 0.53}
+  m_Center: {x: 0, y: -0.18, z: 0.68}
 --- !u!1 &6611716177552410811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,6 +1312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1754341109278957125}
+  - component: {fileID: 2071163602}
   m_Layer: 0
   m_Name: front_foot.L
   m_TagString: Untagged
@@ -1286,6 +1335,19 @@ Transform:
   m_Father: {fileID: 6427187637147736393}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2071163602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021870419157765968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.52, z: 0.1}
+  m_Center: {x: 0, y: -0.09, z: 0}
 --- !u!1 &7267054802186004708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,7 +1476,7 @@ MeshCollider:
   m_GameObject: {fileID: 7267054802186004708}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -1428,6 +1490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7876663502111991980}
+  - component: {fileID: 144265345}
   m_Layer: 0
   m_Name: foot.R
   m_TagString: Untagged
@@ -1450,6 +1513,19 @@ Transform:
   m_Father: {fileID: 3278230884453114198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &144265345
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7403037808942719952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.24, z: 0.1}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!1 &7793524215186189581
 GameObject:
   m_ObjectHideFlags: 0
