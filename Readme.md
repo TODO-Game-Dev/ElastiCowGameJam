@@ -15,6 +15,8 @@ From https://sketchfab.com/3d-models/cow-skin-f79f2bc987f94c9ead02a36844e7c48b
 License: CC AttributionCreative
 https://creativecommons.org/licenses/by/4.0/
 
+Badly rigged and C# scripts by matnesss
+
 
 ## 2D Cow 1
 <p float="left">
