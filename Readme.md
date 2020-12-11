@@ -10,9 +10,9 @@ License Public Domain, attribution appreciated
 
 ## 2D Cow 1
 <p float="left">
-    <img src="Assets/Sprites/FantasmiGames/ElastiCow.png" width=300>
-    <img src="Assets/Sprites/FantasmiGames/ElastiBull.png" width=300>
-    <img src="Assets/Sprites/FantasmiGames/FrontElastiCow.png" width=300>
+    <img src="Assets/Sprites/FantasmiGames/ElastiCow.png" width=200>
+    <img src="Assets/Sprites/FantasmiGames/ElastiBull.png" width=200>
+    <img src="Assets/Sprites/FantasmiGames/FrontElastiCow.png" width=100>
 </p>
 
 Made by Fantasmi Games 
