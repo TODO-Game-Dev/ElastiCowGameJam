@@ -9,10 +9,11 @@ https://www.twitch.tv/matnesss
 License Public Domain, attribution appreciated
 
 ## 2D Cow 1
-<img src="Assets/Sprites/FantasmiGames/ElastiCow.png" width=300>
-<img src="Assets/Sprites/FantasmiGames/ElastiBull.png" width=300>
-<img src="Assets/Sprites/FantasmiGames/FrontElastiCow.png" width=300>
-
+<p float="left">
+    <img src="Assets/Sprites/FantasmiGames/ElastiCow.png" width=300>
+    <img src="Assets/Sprites/FantasmiGames/ElastiBull.png" width=300>
+    <img src="Assets/Sprites/FantasmiGames/FrontElastiCow.png" width=300>
+</p>
 
 Made by Fantasmi Games 
 https://www.youtube.com/channel/UC3qMIvbnDvWwUYeKB1XFCDg
