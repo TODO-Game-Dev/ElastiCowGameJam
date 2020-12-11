@@ -2,7 +2,7 @@
 This repository contains all assets that you can use for the ElastiCow Game Jam 2020. 
 
 ## 3D voxel cow 
-![](Assets/Models/3DVoxelCow/Media/ElastivacaAsset.gif  | width=480)
+<img src="Assets/Models/3DVoxelCow/Media/ElastivacaAsset.gif" width=480>
 
 Made by matnesss 
 https://www.twitch.tv/matnesss
