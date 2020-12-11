@@ -26,6 +26,18 @@ Made by UrielJavier
 https://www.twitch.tv/urieljavier
 License: Public Domain, attribution appreciated
 
+## 2D Cow 3 Art
+<p float="left">
+    <img src="Assets/Sprites/Maetschl/A51.png" width=200>
+    <img src="Assets/Sprites/Maetschl/ElastiCowMesh.png" width=200>
+    <img src="Assets/Sprites/Maetschl/Elastivaca.png" width=100>
+</p>
 
+
+Made by Maetschl
+https://github.com/maetschl
+License: CC BY 
+
+https://creativecommons.org/licenses/by/4.0/deed.es
 
 
