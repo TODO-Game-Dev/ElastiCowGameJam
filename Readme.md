@@ -1,6 +1,8 @@
 # ElastiCow Game Jam Assets
 This repository contains all assets that you can use for the ElastiCow Game Jam 2020. 
 
+https://itch.io/jam/elasticow-jam
+
 ## 3D voxel cow 
 <img src="Assets/Models/3DVoxelCow/Media/ElastivacaAsset.gif" width=300>
 
@@ -10,8 +12,11 @@ License Public Domain, attribution appreciated
 
 ## 3D Realistic Cow
 3D model made by GSCreations
+
 https://sketchfab.com/gscreations2508
+
 From https://sketchfab.com/3d-models/cow-skin-f79f2bc987f94c9ead02a36844e7c48b
+
 License: CC AttributionCreative
 https://creativecommons.org/licenses/by/4.0/
 
